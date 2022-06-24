@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav .tab {
+    border: 1px solid black;
+    font-size: 4rem;
+    padding: 1rem;
+
+}
+
+nav .tab:hover {
+    background-color: gold;
+}
+
+.tab {
+    width: auto;
+    height: 100%;
+    border: 1px solid green;
+}
