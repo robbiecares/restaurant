@@ -1,2 +1,2 @@
 # restaurant
-The Oding Project - Project: Restaurant Page
+The Odin Project - Project: Restaurant Page
