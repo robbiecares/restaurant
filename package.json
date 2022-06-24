@@ -1,0 +1,19 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "The Odin Project - Project: Restaurant Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiecares/restaurant.git"
+  },
+  "author": "robbiecares <robbiecares@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiecares/restaurant/issues"
+  },
+  "homepage": "https://github.com/robbiecares/restaurant#readme"
+}
