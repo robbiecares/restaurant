@@ -1,4 +1,5 @@
 const path = require('path');
+<<<<<<< HEAD
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -29,5 +30,13 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+=======
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+>>>>>>> e6dfa43 (directory setup complete, beginning pageLoad.js)
   },
 };

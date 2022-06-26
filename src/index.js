@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './style.css'
 import { home } from "./home";
 import { menu } from "./menu";
@@ -23,3 +24,8 @@ export {
     loadContent
 }
 
+=======
+import { initializeStructure } from "./pageLoad";
+
+initializeStructure()
+>>>>>>> e6dfa43 (directory setup complete, beginning pageLoad.js)
