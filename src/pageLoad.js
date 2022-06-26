@@ -1,4 +1,30 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+function initializeStructure() {
+
+    const content = document.getElementById('content')
+
+    const header = document.createElement('h1')
+    header.textContent = "Welcome to Moe's"
+
+    const logo = document.createElement('img')
+    logo.setAttribute['src', "../src/images/Moes_Logo-4198742854.jpeg"]
+    logo.setAttribute['width', "50%"]
+
+    const copy = document.createElement('p')
+    copy.textContent = "We have the best salsas ever! Don't eat at Chipotle!"
+
+    for (let elem of [header, logo, copy]) {
+        header.appendChild(elem)
+    }
+}
+
+export {
+    initializeStructure
+=======
+>>>>>>> 5e4052d42c96bcbda3928d9e5e7ff98bf601104e
 // import { sources } from 'webpack'
 import { loadContent } from './index'
 
@@ -55,6 +81,7 @@ function pageLoad() {
 
 export {
     pageLoad
+<<<<<<< HEAD
 =======
 
 function initializeStructure() {
@@ -79,4 +106,7 @@ function initializeStructure() {
 export {
     initializeStructure
 >>>>>>> e6dfa43 (directory setup complete, beginning pageLoad.js)
+=======
+>>>>>>> d305ffc6230790997bf46aa77e988959e085e5d8
+>>>>>>> 5e4052d42c96bcbda3928d9e5e7ff98bf601104e
 }

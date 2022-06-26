@@ -20,7 +20,21 @@
   },
   "homepage": "https://github.com/robbiecares/restaurant#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0"
+=======
+<<<<<<< HEAD
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+=======
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+>>>>>>> d305ffc6230790997bf46aa77e988959e085e5d8
+>>>>>>> 5e4052d42c96bcbda3928d9e5e7ff98bf601104e
   }
 }
