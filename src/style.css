@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html body {
+    height: 100%;
+}
+
+#content{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav .tab {
+    border: 1px solid black;
+    font-size: 4rem;
+    padding: 1rem;
+
+}
+
+nav .tab:hover {
+    background-color: gold;
+}
+
+#active-tab {
+    flex: 1;
+}
+
+footer {
+    justify-self: flex-end;
+}
+
+.logo {
+    width: 50%;
+}
