@@ -1,17 +1,21 @@
 function contact() {
 
-    const indexContent = document.getElementById('content')
-    const contactContent = document.createElement('div')
-    indexContent.appendChild(contactContent)
+    const content = document.createElement('div')
 
-    const detail = document.createElement('p')
+    let detail = document.createElement('p')
     detail.textContent = '555-555-5555'
-    contactContent.appendChild(detail)
+    content.appendChild(detail)
 
     detail = document.createElement('p')
     detail.textContent = 'address@domain.com'
-    contactContent.appendChild(detail)
+    content.appendChild(detail)
+
+    let x = document.getElementById('content')
+    x.appendChild(content)
+    
+    return content
 }
+
 
 export {
     contact

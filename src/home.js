@@ -1,18 +1,22 @@
+import image from './images/Moes_Logo-4198742854.jpeg';
+    
+
 function home() {
 
-    const indexContent = document.getElementById('content')
+    const content = document.createElement('div')
 
-    const logo = document.createElement('img')
-    // logo.setAttribute('src', "../src/images/Moes_Logo-4198742854.jpeg")
-    // logo.setAttribute('width', "50%")
+    const logo = new Image();
+    content.appendChild(logo)
+    logo.src = image
+    logo.classList.add('logo')
 
     const copy = document.createElement('p')
+    content.appendChild(copy)
     copy.textContent = "We have the best salsas ever! Don't eat at Chipotle!"
 
-    for (let elem of [header, logo, copy]) {
-        indexContent.appendChild(elem)
-    }
+    return content
 }
+
 
 export {
     home
