@@ -3,6 +3,8 @@ import { loadContent } from './index'
 
 function pageLoad() {
 
+    document.title = "Moe's Southwest Grill"
+
     const body = document.getElementsByTagName('body')[0]
     const anchor = document.createElement('div')
     body.appendChild(anchor)
