@@ -37,6 +37,11 @@ nav .tab:hover {
 
 #active-tab {
     flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border: solid 1rem black;
+    margin: 0rem 3rem;
 }
 
 footer {
@@ -50,4 +55,5 @@ footer {
 .source {
     font-size: 1.5rem;
     color: black;
+    margin: .25rem;
 }
