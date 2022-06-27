@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-html body {
+html, body {
     height: 100%;
 }
 
@@ -45,4 +45,9 @@ footer {
 
 .logo {
     width: 50%;
+}
+
+.source {
+    font-size: 1.5rem;
+    color: black;
 }

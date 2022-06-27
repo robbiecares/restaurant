@@ -1,4 +1,3 @@
-// import { sources } from 'webpack'
 import { loadContent } from './index'
 
 
@@ -23,21 +22,14 @@ function pageLoad() {
     const footer = document.createElement('footer')
     anchor.appendChild(footer)
     
-    // content = document.createElement('span')
-    // footer.appendChild(content)
-    // content.textContent = 'created by: robbiecares'
+    let source = document.createElement('a')
+    footer.appendChild(source)
+    source.href = 'https://github.com/robbiecares/restaurant'
+    source.target = '_blank'
 
-    // let source = document.createElement('a')
-    // footer.appendChild(source)
-    // source.href = 'https://github.com/robbiecares/restaurant'
-    // source.target = '_blank'
-    // source.classList.add('_')
-
-    // content = document.createElement('i')
-    // source.appendChild(content)
-    // content.textContent = ''
-    // content.classList.add('fa', 'fa-github')
-
+    content = document.createElement('i')
+    source.appendChild(content)
+    content.classList.add('fab', 'fa-github', 'source')
 
     for (let name of ['home', 'menu', 'contact']) {
         let element = document.createElement('div')

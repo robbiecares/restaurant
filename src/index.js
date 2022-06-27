@@ -1,4 +1,7 @@
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/brands'
 import './style.css'
+
 import { home } from "./home";
 import { menu } from "./menu";
 import { contact } from "./contact";
